@@ -1,7 +1,7 @@
 import axios from "axios";
 import { User } from "../types/User";
 
-const API_URL = "http://localhost:3001/users";
+const API_URL = "https://67e3e1e42ae442db76d2035d.mockapi.io/register/user";
 
 export const getUsers = () => axios.get<User[]>(API_URL);
 
