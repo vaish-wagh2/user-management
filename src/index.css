@@ -1,0 +1,7 @@
+.hover-text-white:hover {
+  color: #fff !important;
+}
+
+.hover-bg-success:hover {
+  background-color: #198754 !important; /* Bootstrap success */
+}
